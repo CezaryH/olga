@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  jekyll:
+    # On Apple Silicon (M1/M2) you may need to set platform: linux/amd64 to run the official image
+    platform: linux/amd64
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll:cached
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --livereload --force_polling --host 0.0.0.0
+    # Optionally map UID/GID to avoid root-owned files in the project directory
+    # user: "${UID}:${GID}"

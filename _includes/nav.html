@@ -1,0 +1,10 @@
+<nav role="navigation">
+  <ul class="nav">
+    {% for item in site.data.navigation %}
+      <li class="nav-main-item menu-item {% if page.url == item.url or page.url == item.url | append: 'index.html' %}current-menu-item{% endif %}">
+        <a class="nav-main-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% include contact.html %}
+</nav>

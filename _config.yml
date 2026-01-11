@@ -1,0 +1,10 @@
+title: "Gabinet Psychoterapii Olga Surma"
+description: "Psychoterapia psychodynamiczna - Olga Surma, Kraków"
+repository: "YOUR_GITHUB_USERNAME/YOUR_REPO" # update this to enable GitHub metadata locally
+baseurl: "" # set this if deploying to a project page like "/REPO_NAME"
+url: "" # set to your production URL, e.g. "https://USERNAME.github.io"
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from

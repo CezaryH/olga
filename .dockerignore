@@ -1,0 +1,11 @@
+.bundle
+_site
+.vendor
+vendor
+node_modules
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+*.log
+.bundle-cache

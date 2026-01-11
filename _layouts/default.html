@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="wrapper">
+    <section class="left">
+      <div class="pos">
+        <div class="inner">
+          <h1 class="big">Gabinet Psychoterapii<br/> Psychodynamicznej <strong>Olga Surma</strong></h1>
+          <h1 class="medium">Psycholog, Psychoterapeuta</h1>
+          <div class="image" style="background-image: url('{{ '/images/olga.jpg' | relative_url }}')"></div>
+          {% include nav.html %}
+        </div>
+      </div>
+    </section>
+
+    <section class="right">
+      <div class="content">
+        <div class="pos">
+          <div class="inner">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  {% include footer.html %}
+</body>
+</html>

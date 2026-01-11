@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Kontakt - Olga Surma"
+permalink: /kontakt/
+redirect_from:
+  - /kontakt.html
+---
+
+<div class="text">
+  <p>Telefoniczne umawianie wizyt możliwe jest od poniedziałku do piątku w godzinach: 10:00 – 19:00.</p>
+  <p>Godziny przyjęć:</p>
+  <p>Poniedziałek: 9:00 – 20:00</p>
+</div>
+
+<!-- map and contact form are omitted in static HTML-only copy -->
