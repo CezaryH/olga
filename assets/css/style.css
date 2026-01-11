@@ -2,14 +2,14 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
-  src: url('/fonts/raleway-latin.woff2') format('woff2');
+  src: url('/assets/fonts/raleway-latin.woff2') format('woff2');
   font-display: swap;
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/raleway-latin.woff2') format('woff2');
+  src: url('/assets/fonts/raleway-latin.woff2') format('woff2');
   font-display: swap;
 }
 /* CSS Document */
@@ -20,7 +20,7 @@ body {
         color: rgba(255,255,255,1);
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
-        background: url('/images/background.jpg') no-repeat 50% 50%;
+        background: url('/assets/images/background.jpg') no-repeat 50% 50%;
         background-size: 100% 100%;
         overflow: hidden;
         height: 100%;
