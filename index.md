@@ -2,8 +2,6 @@
 layout: default
 title: "O psychoterapii psychodynamicznej - Olga Surma"
 permalink: /
-redirect_from:
-  - /index.html
 ---
 
 <h2 class="main_title">O psychoterapii psychodynamicznej</h2>
