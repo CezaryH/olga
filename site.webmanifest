@@ -1,0 +1,26 @@
+{
+  "name": "Psycholog Olga Surma",
+  "short_name": "O. Surma",
+  "description": "Gabinet psychologiczny Olga Surma - profesjonalna pomoc psychologiczna",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "lang": "pl-PL",
+  "dir": "ltr",
+  "categories": ["medical", "health", "lifestyle"]
+}
